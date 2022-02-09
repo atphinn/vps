@@ -54,7 +54,7 @@ resource "azurerm_linux_virtual_machine" "seetoothVPS" {
   location                        = azurerm_resource_group.seetoothVPS.location
   size                            = "Standard_D2s_v3"
   admin_username                  = "*******"
-  admin_password                  = "************************!"
+  admin_password                  = "************************"
   disable_password_authentication = false
   network_interface_ids = [
     azurerm_network_interface.seetoothVPS.id,
