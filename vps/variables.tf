@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "VPSesourceGroup"
+  default = "VPSresourceGroup"
 }
 
 variable "location" {
